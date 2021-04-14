@@ -6,6 +6,7 @@ app.db = db
 
 consign()
     .then('./Config/middlewares.js')
+    .then('./api/validation.js')
     .then('./api')
     .then('./Config/routes.js')
     .into(app)
