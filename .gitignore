@@ -1,3 +1,5 @@
 node_modules
 BackendFinal
 memory.js
+.DS_Store
+.env
